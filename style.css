@@ -1,0 +1,43 @@
+body{
+    background-color: deepskyblue;
+}
+
+form{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img{
+    width: 80px;
+    margin-top: -40px;
+    height: 80px;
+}
+input{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+.giris{
+    width: 25%;
+    color: #fff;
+    border-radius: 3px;
+    background-color: turquoise;
+}
+
+.giris:hover{
+    cursor: pointer;
+    background-color: violet;
+}
+
